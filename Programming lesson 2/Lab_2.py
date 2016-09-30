@@ -1,17 +1,14 @@
-x = 1
-y = 1
-z = x * y
-
-print("the number of shots harambe took was",z)
-
 
       
-      
-n = 13050
+namef = "Ryan"
+namel = "Flaharty"
+address = "13050 cadencia place"
+city = "San Diego,"
 z = 92130
 
-print(" My address is", n ," cadencia place in San Diego California") 
-print(" The zip code for Carmel Valley is",z,)
+print(namef , namel)
+print(address)
+print(city , z)
 
 
 

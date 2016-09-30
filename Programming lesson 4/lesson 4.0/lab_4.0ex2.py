@@ -1,5 +1,5 @@
 def printf(item1, item2):
-    print("*{:<20}{:>10.2f}".format(item1, item2))
+    print("*{:<20}{:>10}*".format(item1, item2))
     
 
 fname = input("What is your first name?")
@@ -9,8 +9,10 @@ school = input("What school will you be attending?")
 year = input("What school year are you in?")
 subject = input("What is your subject?")
 
-print("*" *20)
+print("*" *32)
 
 printf(school, year)
 printf(fname, lname)
 printf(title, subject)
+
+print("*" *32)
