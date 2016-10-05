@@ -1,9 +1,13 @@
 def printf(volume):
-    print("{4.2f}".format(volume))
+    print("{:4.2f}".format(volume))
 
-def volBox(
+def volBox(h,l,w):
+    return float(h*w*l)
 
 
-h = int(input("What is the height?"))
-l = int(input("What is the length?"))
-w = int(input("What is the width?"))
+hi = int(input("What is the height?"))
+le = int(input("What is the length?"))
+wi = int(input("What is the width?"))
+
+printf(volBox(hi,wi,le))
+
