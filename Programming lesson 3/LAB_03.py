@@ -12,14 +12,7 @@ print("Sorry, being a" ,job, "requires actual intelligence")
 
 
 
-height = int(input("whats your height?"))
-weight = int(input("Ok, and whats your weight?"))
-bmi = 703 * weight/height**2
-print("Your BMI is" ,bmi)
 
-radius = int(input("What is the radius of the shpere?"))
-sphere = 4 * 3.1415 * radius**2
-print(" The surface area of this shpere is" ,sphere)
 
 
 
