@@ -1,4 +1,3 @@
-
 def printf(item, price):
     print("*{:<30}......{:>5.2f}".format(item, price))
 
