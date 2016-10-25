@@ -29,11 +29,74 @@ discount = 0
 def discount():
     global subtotal
     if subtotal >= 2000:
-        discount = 0.1;
+        discount = 100;
         return(discount)
     if subtotal <= 2000:
         discount = 0.0;
         return(discount)
 
-total = subtotal + tax - discount
+total = subtotal + tax - discount();
 printf("Total: ", total)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
