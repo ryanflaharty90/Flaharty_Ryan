@@ -1,4 +1,4 @@
-w = ("soccer", "baseball", "basketball", "football", "rugby")
+w = ["Mikey", "Joe", "Paul", "Leo", "Ricky"]
 print("In order...")
 output = ""
 for i in w:
@@ -12,7 +12,7 @@ print("Reversed")
 def reverse(word):
     a = ""
     for i in range(len(w)-1,-1,-1):
-        a += word[1]+ " "
+        a += word[i]+ " "
     print(a)
 
 reverse(w)

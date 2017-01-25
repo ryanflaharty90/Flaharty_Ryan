@@ -14,7 +14,7 @@ for nums in numsList:
 
 div = int(input("Please enter a number:"))
 count = 0
-for nums in numList:
+for nums in numsList:
     for num in nums:
         if num%div == 0:
             count += 1

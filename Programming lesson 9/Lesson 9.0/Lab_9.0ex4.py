@@ -5,5 +5,5 @@ for i in range(0,size):
     if i==0 or i==1:
         sequence.append(start)
     else:
-        seq.append(sequence[i-1] + sequence[i-2])
+        sequence.append(sequence[i-1] + sequence[i-2])
 print(sequence)
