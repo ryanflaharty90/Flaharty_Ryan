@@ -1,6 +1,6 @@
 go = input("please enter sixteen strings")
 spList = go.split(" ")
-wordsList = []
+wordList = []
 
 spot = 0
 for i in range (0,4):

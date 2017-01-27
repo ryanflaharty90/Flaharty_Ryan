@@ -9,7 +9,7 @@ for i in range(0,4):
 for nums in numsList:
     output = ""
     for num in nums:
-        output += str(num) + " "
+        output += str(num) + "\t"
     print(output)
 
 div = int(input("Please enter a number:"))

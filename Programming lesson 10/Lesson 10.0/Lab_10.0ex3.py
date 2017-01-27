@@ -4,13 +4,14 @@ xOo = []
 for i in range (0,4):
     xOo.append([])
     for j in range (0,4):
-            switch = random.randint(0,1)
-            if switch == 1:
-                xOo[i] += "X"
-            else:
-                xOo += "O"
+        switch = random.randint(0,1)
+        if switch == 1:
+            xOo[i].append("X")
+        else:
+            xOo[i].append("O")
+
 for i in xOo:
     output = ""
     for j in i:
-        output += j
+        output += j + " "
     print(output)
