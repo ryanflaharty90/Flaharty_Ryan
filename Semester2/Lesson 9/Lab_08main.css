@@ -1,0 +1,16 @@
+tr:nth-child(odd) > td:nth-child(even){
+	background-color: black;
+	color: orange;
+}
+tr:nth-child(odd) > td:nth-child(odd){
+	background-color: orange;
+	color:black;
+}
+tr:nth-child(even) > td:nth-child(even){
+	background-color: black;
+	color:orange;
+}
+tr:nth-child(even) > td:nth-child(odd){
+	background-color: orange;
+	color: black;
+}

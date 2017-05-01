@@ -1,9 +1,9 @@
-p:nth-child(even) {
-    color: green;
+* {
+	color:yellow;
 }
 
-p:nth-child(odd){
-    color:red;
+p:not(.torrey){
+	color:orange;
 }
 
 tr:nth-child(odd) > td:nth-child(even){
