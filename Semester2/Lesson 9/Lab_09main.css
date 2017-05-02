@@ -1,3 +1,11 @@
+p {
+    color:orange;
+}
+
+p:not(.giants){
+	color:black;
+}
+
 tr:nth-child(odd) > td:nth-child(even){
 	background-color: black;
 	color: orange;
