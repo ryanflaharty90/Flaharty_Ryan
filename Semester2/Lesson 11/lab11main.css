@@ -1,0 +1,43 @@
+#playoffs{
+    border: 4px solid black;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    width: 700px;
+    height: 300px;
+}
+
+#spurs {
+    border: 2px solid grey;
+    background: black;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: 100px;
+}
+
+#cavs {
+    border: 2px solid gold;
+    background: darkred;
+    padding: 20px;
+    margin: 10px;
+    color: gold;
+    width: 100px;
+}
+
+#dubs {
+    border: 2px solid yellow;
+    background: royalblue;
+    padding: 20px;
+    margin: 10px;
+    color: yellow;
+    width: 100px;
+}
+
+#celtics {
+    border: 2px solid black;
+    background: green;
+    padding: 20px;
+    margin: 10px;
+    color: black;
+    width: 100px;
+}
